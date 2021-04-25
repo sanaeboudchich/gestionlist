@@ -10,7 +10,7 @@
       <?php if ($t->picture == null) : ?>
           <img src="https://images-ext-1.discordapp.net/external/tvwG0a8im3V7mGl9HzPJmKQQfmEsCFI32W6cJwLR3Zo/https/bulma.io/images/placeholders/128x128.png" >
       <?php endif; ?>
-      <?php endif; ?>
+      
     <div class="card-body">
       <h3 class="card-text"><?= $t->title ?></h3>
     
@@ -33,9 +33,8 @@
   </div>
   <?php endif; ?>
 
-
   <?php endforeach; ?>
   </div>
-    
+  <?php endif; ?>
   </div>
   <?php endforeach; ?>

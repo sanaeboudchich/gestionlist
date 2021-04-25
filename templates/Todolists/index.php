@@ -11,7 +11,7 @@
     <?= $this->Html->image('data/todolists/'.$img->picture,['alt'=>$img->title]) ?>
     <?php endif; ?>
     <?php if ($img->picture == null) : ?>
-        <img src="https://images-ext-1.discordapp.net/external/tvwG0a8im3V7mGl9HzPJmKQQfmEsCFI32W6cJwLR3Zo/https/bulma.io/images/placeholders/128x128.png">
+        <img src="https://images-ext-1.discordapp.net/external/tvwG0a8im3V7mGl9HzPJmKQQfmEsCFI32W6cJwLR3Zo/https/bulma.io/images/placeholders/128x128.png" >
     <?php endif; ?>
 
 
